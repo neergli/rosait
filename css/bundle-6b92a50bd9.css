@@ -1,0 +1,384 @@
+html {
+  font-size: 14px;
+}
+
+body {
+  font-size: 1rem;
+}
+
+.header-001 {
+  line-height: 36px;
+  font-family: 'Open Sans Light';
+  color: #000;
+  letter-spacing: 0.02em;
+}
+
+.header-001 .phone {
+  font-size: 1.143rem;
+}
+
+.header-001 .fa {
+  color: #d8354c;
+  font-size: 1rem;
+  padding-right: 0.2rem;
+}
+
+.menu-001 {
+  font-family: 'Open Sans Light';
+  font-size: 1.143rem;
+  letter-spacing: 0.03em;
+}
+
+.menu-001 .navbar {
+  border: none;
+  border-radius: 0;
+  margin-bottom: 0;
+}
+
+.menu-001 .navbar-default {
+  background-color: #1b365b;
+}
+
+.menu-001 .navbar-default .navbar-nav li a {
+  color: #fff;
+}
+
+.menu-001 .navbar-default .navbar-nav li a:hover {
+  color: #64b5f6;
+}
+
+.menu-001 .navbar-default .navbar-nav > .open > a, .menu-001 .navbar-default .navbar-nav > .open > a:hover {
+  background: none;
+  color: #64b5f6;
+}
+
+.menu-001 .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+  color: #ddd;
+}
+
+.menu-001 .navbar-default .navbar-toggle {
+  border-color: #fff;
+  border-width: 2px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.menu-001 .navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
+.menu-001 .navbar-default .navbar-toggle:hover, .menu-001 .navbar-default .navbar-toggle:focus {
+  background: none;
+}
+
+.menu-001 .navbar-default .navbar-toggle:hover, .menu-001 .navbar-default .navbar-toggle[aria-expanded='true'] {
+  border-color: #64b5f6;
+}
+
+.menu-001 .navbar-default .navbar-toggle:hover .icon-bar, .menu-001 .navbar-default .navbar-toggle[aria-expanded='true'] .icon-bar {
+  background-color: #64b5f6;
+}
+
+.menu-001 .navbar-default .dropdown .fa {
+  font-size: 0.8em;
+}
+
+.menu-001 .navbar-default .dropdown .dropdown-menu {
+  border-radius: 0;
+}
+
+.menu-001 .navbar-default .dropdown > .dropdown-menu {
+  font-family: 'Open Sans';
+  font-size: 1.072rem;
+  letter-spacing: 0.01em;
+  background-color: #10294f;
+}
+
+.menu-001 .navbar-default .dropdown > .dropdown-menu li a {
+  background: none;
+  padding: 8px 20px;
+}
+
+.menu-001 .navbar-default .dropdown > .dropdown-menu li a:hover, .menu-001 .navbar-default .dropdown > .dropdown-menu li a:focus {
+  color: #4c7eca;
+}
+
+.menu-001 .navbar-default .dropdown-submenu {
+  position: relative;
+}
+
+.menu-001 .navbar-default .dropdown-submenu > .dropdown-menu {
+  background-color: #071529;
+}
+
+.menu-001 .navbar-default .dropdown-submenu > .dropdown-menu li a {
+  padding-left: 30px;
+}
+
+.menu-001 .navbar-brand {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.gallery-001 {
+  margin-bottom: 35px;
+}
+
+.gallery-001 .page-header {
+  border: 0;
+  border-top: 2px solid #d8354c;
+  margin: 0 0 35px;
+  padding-top: 40px;
+  color: #184e9f;
+}
+
+.gallery-001 .row {
+  margin: 0 -5px;
+}
+
+.gallery-001 [class*='col-'] {
+  padding: 0 5px;
+}
+
+.gallery-001 .thumbnail {
+  border: none;
+  border-radius: 0;
+  margin-bottom: 20px;
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.gallery-001 .thumbnail img {
+  position: absolute;
+  top: 0;
+  max-width: 300%;
+  height: 100%;
+}
+
+.gallery-001 .thumbnail:hover .fa {
+  opacity: 1;
+}
+
+.gallery-001 .thumbnail .fa {
+  position: absolute;
+  background: rgba(17, 56, 115, 0.75);
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 10;
+  opacity: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.gallery-001 .thumbnail .fa-search:before {
+  content: "\f002";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  width: 38px;
+  height: 38px;
+  font-size: 2.4rem;
+  color: #fafafa;
+}
+
+/* Такой подход позволяет сохранять структуру галерии, 
+даже если загружены изображения с неправильными пропорциями - лишнее будет обрезаться. */
+.gallery-001 .thumbnail.big {
+  padding-top: 112.3%;
+}
+
+.gallery-001 .thumbnail.small {
+  padding-top: 54%;
+}
+
+.gallery-001 .carousel-inner.thumbnail {
+  padding: 0;
+}
+
+.gallery-001 .carousel-inner.thumbnail img {
+  width: 100%;
+  position: relative;
+}
+
+.gallery-001 .carousel-indicators {
+  bottom: 6px;
+  margin-bottom: 0;
+}
+
+.gallery-001 .carousel-control .icon-prev, .gallery-001 .carousel-control .icon-next {
+  margin-top: -24px;
+  font-size: 45px;
+}
+
+.gallery-001 .carousel-control .icon-prev {
+  margin-left: -15px;
+}
+
+.gallery-001 .carousel-control .icon-next {
+  margin-right: -15px;
+}
+
+.gallery-001 .btn {
+  margin-top: 10px;
+  font-size: 22px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.45);
+}
+
+.gallery-001 .btn:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+
+.gallery-001 .btn:focus {
+  outline: 0;
+}
+
+.gallery-001 .btn-primary {
+  background: -webkit-linear-gradient(top, #1976d2, #0d47a1);
+  background: linear-gradient(to bottom, #1976d2, #0d47a1);
+}
+
+.gallery-001 .btn-primary:hover {
+  background: -webkit-linear-gradient(top, #2872BB, #0D3C84);
+  background: linear-gradient(to bottom, #2872BB, #0D3C84);
+}
+
+.gallery-001 .btn-primary:focus {
+  border-color: #0d47a1;
+}
+
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  .menu-001 .navbar-nav > li > a {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .menu-001 .navbar-brand {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .menu-001 .navbar-default .navbar-right {
+    margin-right: -30px;
+  }
+  .menu-001 .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #fff;
+  }
+  .menu-001 .navbar-default .dropdown > .dropdown-menu {
+    border-top: 3px solid #2964bc;
+    padding: 0.7em 0;
+    left: auto;
+    right: 0;
+  }
+  .menu-001 .navbar-default .dropdown > .dropdown-menu li a {
+    padding: 5px 20px;
+  }
+  .menu-001 .navbar-default .dropdown > .dropdown-menu:before {
+    content: "";
+    display: inline-block;
+    border-style: solid;
+    border-width: 0px 7px 7px 7px;
+    border-color: transparent transparent #2964bc transparent;
+    position: absolute;
+    top: -10px;
+    left: auto;
+    right: 20%;
+    margin-left: -8px;
+  }
+  .menu-001 .navbar-default .dropdown-submenu .fa {
+    position: absolute;
+    margin-top: 6px;
+    right: auto;
+    left: 6px;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+  .menu-001 .navbar-default .dropdown-submenu.open .fa {
+    display: none;
+  }
+  .menu-001 .navbar-default .dropdown-submenu > .dropdown-menu {
+    top: 0;
+    right: 100%;
+    left: auto;
+    margin-top: -3px;
+    margin-right: -1px;
+    min-width: 100px;
+  }
+  .menu-001 .navbar-default .dropdown-submenu > .dropdown-menu li a {
+    padding-left: 20px;
+  }
+  .menu-001 .navbar-default .dropdown-submenu > .dropdown-menu:before {
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 7px 0px 7px 7px;
+    border-color: transparent transparent transparent #071529;
+    position: absolute;
+    top: 12px;
+    right: -6px;
+  }
+  .gallery-001 .thumbnail {
+    margin-bottom: 10px;
+  }
+  .gallery-001 .carousel-control .icon-prev, .gallery-001 .carousel-control .icon-next {
+    margin-top: -15px;
+    font-size: 30px;
+  }
+  .gallery-001 .btn {
+    margin-top: 10px;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  .gallery-001 .thumbnail.big {
+    padding-top: 111.2%;
+  }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  .menu-001 .navbar-default .dropdown > .dropdown-menu {
+    left: 0;
+    right: auto;
+    margin-left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+  .menu-001 .navbar-default .dropdown > .dropdown-menu:before {
+    left: 50%;
+    right: auto;
+  }
+  .menu-001 .navbar-default .dropdown-submenu .fa {
+    left: auto;
+    right: 6px;
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+  }
+  .menu-001 .navbar-default .dropdown-submenu > .dropdown-menu {
+    left: 100%;
+    right: auto;
+    margin-right: auto;
+    margin-left: -1px;
+  }
+  .menu-001 .navbar-default .dropdown-submenu > .dropdown-menu:before {
+    border-width: 7px 7px 7px 0px;
+    border-color: transparent #071529 transparent transparent;
+    left: -6px;
+  }
+  .gallery-001 .thumbnail.big {
+    padding-top: 110.7%;
+  }
+}
